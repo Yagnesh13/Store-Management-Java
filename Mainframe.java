@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package shop_manage;
 
-/**
- *
- * @author yagne
- */
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
@@ -28,15 +21,7 @@ public class Mainframe extends JFrame {
         setForeground(Color.CYAN);
         setLayout(null); 
 
-//        JLabel NewLabel = new JLabel("");//ClassLoader.getSystemResource
-//	//NewLabel.setIcon(new ImageIcon(ClassLoader.getSystemResource("shop_manage/bg/logo.png")));
-//	//NewLabel.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("shop_manage/bg/mainf.jpg")).getImage().getScaledInstance(200, 50, Image.SCALE_SMOOTH)));
-//        
-//        
-//        //NewLabel.setBounds(50,50,1920,990);//(0, 0, 1920, 990); 
-//	add(NewLabel); 
 JLabel NewLabel = new JLabel("");
-	//NewLabel.setIcon(new ImageIcon(ClassLoader.getSystemResource("airline/management/system/icon/front.jpg")));
 	NewLabel.setBounds(0, 0, 1920, 990); 
 	add(NewLabel); 
         
@@ -85,19 +70,7 @@ JLabel NewLabel = new JLabel("");
         JMenuItem OrderDetails_1 = new JMenuItem("Order Details");
 	Order.add(OrderDetails_1);
 	
-		
-	/*JMenu Ticket = new JMenu("TICKET");
-        Ticket.setForeground(Color.RED);
-	menuBar.add(Ticket);*/
-		
-        /*JMenu List = new JMenu("LIST");
-        List.setForeground(Color.BLUE);
-	menuBar.add(List);*/
-		
-	/*JMenu Misc = new JMenu("MISC");
-        Misc.setForeground(Color.RED);
-	menuBar.add(Misc);*/
-        
+	
 		
 	ProductDetails.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent ae){
