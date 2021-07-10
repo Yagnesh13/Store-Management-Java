@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package shop_manage;
 
-/**
- *
- * @author yagne
- */
 import net.proteanit.sql.DbUtils;
 import java.awt.*;
 import java.awt.event.*;
@@ -73,9 +65,7 @@ public class Display_Customers extends JFrame {
 	btnShowAll.setFont(new Font("Tahoma", Font.PLAIN, 20));
         
         btnShowAll.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent ae) {
-	
-               // String code = textField.getText();
+            public void actionPerformed(ActionEvent ae) {	
                 
                 try {
                     conn c = new conn();
