@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package shop_manage;
 
-/**
- *
- * @author yagne
- */
 import java.awt.EventQueue;
 import java.awt.*;
 import java.awt.event.*;
@@ -85,13 +77,7 @@ public class Add_Order extends JFrame{
             AddPassengers.setBounds(420, 24, 442, 35);
             add(AddPassengers);            
             
-            //ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("C:/Users/yagne/Desktop/py.allmight.jpeg"));
-            //JLabel image = new JLabel(i1);
-            //image.setBounds(450,80,280,410);
-            //add(image);
-
-            
-            Next.addActionListener(new ActionListener(){
+        Next.addActionListener(new ActionListener(){
                 public void actionPerformed(ActionEvent ae){
                     int oid = Integer.parseInt(textField.getText());
                     int cid = Integer.parseInt(textField_1.getText());
