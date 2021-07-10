@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package shop_manage;
 
-/**
- *
- * @author yagne
- */
+
 import net.proteanit.sql.DbUtils;
 import java.awt.*;
 import java.awt.event.*;
@@ -75,9 +68,7 @@ public class Order_Details extends JFrame {
         
         btnShowAll.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
-	
-               // String code = textField.getText();
-                
+	                
                 try {
                     conn c = new conn();
                     String str1 = "select o.oid,o.items,o.costper,o.total,c.cname,c.cdist,c.cstat from ordr o inner join customer c on c.cid=o.cid";
